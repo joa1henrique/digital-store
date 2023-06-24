@@ -1,0 +1,113 @@
+body{
+    margin-bottom: 80vh;
+}
+
+.corpoCarrinho{
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 4%;
+    padding-bottom: 30px;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    font-size: 16px;
+}
+
+tr{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 16px;
+}
+
+.thCarrinho{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.tdCarrinho{
+    width: 50%;
+}
+
+.meuCarrinho{
+    display: flex;
+    gap: 20px;
+}
+
+.meuCarrinho img{
+    width: 35%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.tdQuantidade{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.setarQuantidade{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.setarQuantidade button{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.remover{
+    background-color: white;
+    text-decoration: underline;
+}
+
+.tdUnitario{
+    height: 100%;
+    width: calc(50%/3);
+    text-align: center;
+    vertical-align: top;
+}
+
+.tdTotal{
+    height: 100%;
+    width: calc(50%/3);
+    text-align: center;
+    vertical-align: top;
+}
+
+.unitario{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.total{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.riscado{
+    color: grey;
+    text-decoration: line-through;
+    font-size: 14px;
+}

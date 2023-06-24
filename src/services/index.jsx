@@ -5,6 +5,7 @@ import { AuthContext } from '../App';
 import AuthLayout from '../layouts/AuthLayout';
 import PageHome from '../pages/PageHome';
 import Login from '../pages/Login';
+import Carrinho from '../pages/Carrinho';
 
 const Ways = () => {
 
@@ -17,7 +18,7 @@ const Ways = () => {
                     isLoggeg ? (
                         <Route path='/' element={<PageLayout />}>
                             <Route index element={<PageHome />} />
-                            <Route path='/notifications' element={<PageHome />} />
+                            <Route path='/carrinho' element={<Carrinho />} />
                         </Route>
                     ) : (
                         <Route path='/' element={<AuthLayout />}>
